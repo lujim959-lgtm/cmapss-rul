@@ -161,12 +161,14 @@ reverse on the multi-condition subsets.
 
 ## Repository Structure
 
-├── data/CMaps/ # raw dataset (not tracked — see Dataset)
-├── figures/ # plots used in this README
+```
+├── data/CMaps/                        # raw dataset (not tracked — see Dataset)
+├── figures/                           # plots used in this README
 ├── notebooks/
-│ ├── 01_data_exploration_archive.ipynb # exploratory work, kept for reference
-│ └── 02_modeling.ipynb # clean end-to-end pipeline
+│   ├── 01_data_exploration_archive.ipynb   # exploratory work, kept for reference
+│   └── 02_modeling.ipynb                   # clean end-to-end pipeline
 └── README.md
+```
 
 **Reproducing the results.** Download FD001 into `data/CMaps/`, then run
 `02_modeling.ipynb` with Restart & Run All. Requires `pandas`, `numpy`,
